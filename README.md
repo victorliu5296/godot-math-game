@@ -1,2 +1,1 @@
-Thanks to http://angelicgarbage.com/posts/how-to-deploy-a-godot-4-game-to-github-pages/
-for the tutorial
+Creating a math game runnable in the browser using Godot and JavaScript
