@@ -10,14 +10,14 @@ config_version=5
 
 [application]
 
-config/name="Godot-hello-world"
-run/main_scene="res://sprite_2d.tscn"
+config/name="Math-game"
+run/main_scene="res://main.tscn"
 config/features=PackedStringArray("4.2", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [dotnet]
 
-project/assembly_name="Godot-hello-world"
+project/assembly_name="Math-game"
 
 [rendering]
 
