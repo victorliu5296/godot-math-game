@@ -1,7 +1,5 @@
 extends Node
 
-var jsConsoleCallback = JavaScriptBridge.create_callback(consoleLog)
-
 # Example usage
 func _ready():
     if OS.has_feature('web'):
@@ -13,6 +11,3 @@ func _ready():
     
     var mathJS = JavaScriptBridge.get_interface("math")
     print(mathJS.add(1, 2))
-
-func consoleLog(args):
-    print(args)
